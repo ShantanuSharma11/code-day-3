@@ -1,0 +1,39 @@
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #a83268, #2e2b85);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container
+    {
+        display:flex;
+        flex-direction: column;
+        margin: 0px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+        width: 400px;
+    }
+    .container h1
+    {
+        text-align: center;
+    }
+    .container input ,.container select
+    {
+       margin: 15px;
+       height:33px;
+       border-radius: 6px;
+       background-color: rgba(230, 233, 235, 0.799);
+
+
+    }
+    .container button
+    {
+        margin:15px;
+        height:33px;
+        border-radius: 6px;
+        background-color: rgba(57, 58, 59, 0.799);
+    }
